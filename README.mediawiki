@@ -1,12 +1,11 @@
-== urlfetch_cached ==
+= urlfetch_cached =
 
-Memcached version of Google App Engine asynchronous urlfetch.
-Just get the returned rpc object and use it as it was the original one.
+Memcached version of Google App Engine asynchronous urlfetch. Just get the returned rpc object and use it as it was the original one.
 
 Author: fjsj - flaviojuvenal@gmail.com
 
- <nowiki>
 Example (making and async request to Facebook Graph API):
+ <nowiki>
     def async_request(self, callback, path, args=None, post_args=None):
         if not args: args = {}
         if self.access_token:
