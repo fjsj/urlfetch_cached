@@ -1,6 +1,6 @@
 === urlfetch_cached ===
 
-Memcached version of Google App Engine asynchronous urlfetch. Just get the returned rpc object and use it as it was the original one.
+Memcached version of Google App Engine asynchronous urlfetch. Just get the returned rpc object and use it as if it was the original one.
 
 Author: fjsj - flaviojuvenal@gmail.com
 
