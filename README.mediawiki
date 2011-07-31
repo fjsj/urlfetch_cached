@@ -4,8 +4,9 @@ Memcached version of Google App Engine asynchronous urlfetch. Just get the retur
 
 Author: fjsj - flaviojuvenal@gmail.com
 
-Example (making and async request to Facebook Graph API):
+Example (making an async request to Facebook Graph API):
  <nowiki>
+    _1_HOUR = 3600
     def async_request(self, callback, path, args=None, post_args=None):
         if not args: args = {}
         if self.access_token:
